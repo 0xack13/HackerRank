@@ -12,7 +12,7 @@ public class Solution {
       String ans="";
           
       // if 'n' is NOT evenly divisible by 2 (i.e.: n is odd)
-      if(n%2==1){
+      if(n%2==1 || (n<=20 && n>=6)){
          ans = "Weird";
       }
       else{
@@ -22,3 +22,4 @@ public class Solution {
       System.out.println(ans);
    }
 }
+
